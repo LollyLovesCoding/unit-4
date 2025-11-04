@@ -1,0 +1,6 @@
+user_input = input("Enter a string: ")
+
+if "xyz" in user_input and ".xyz" not in user_input:
+    print("True")
+else:
+    print("False")
